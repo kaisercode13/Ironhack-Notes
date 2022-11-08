@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+.external-css-font-file {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.external-google-fonts-declaration-with-link-inside-html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.external-font-kolker {
+    font-family: 'Kolker Brush', cursive;
+    ;
+    font-size: 40px;
+}
+
+#welcome p span {
+    font-size: 20px;
+}
