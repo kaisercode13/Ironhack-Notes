@@ -8,4 +8,12 @@
 
 ## Acceso contenidos día 1
 
-- [HTML basics](https://github.com/dzc1/ironhack-nov07#)
+- [HTML basics](https://github.com/kaisercode13/ironhack-bootcamp-main/tree/main/section-01-html)
+
+<h2>Martes 8 de noviembre de 2022</h2>
+
+<p><strong>Temario</strong> CSS Basics</P>
+
+## Acceso contenidos día 2
+
+- [CSS basics](https://github.com/kaisercode13/ironhack-bootcamp-main/tree/main/section-02-css)
