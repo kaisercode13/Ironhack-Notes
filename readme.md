@@ -8,4 +8,4 @@
 
 ## Acceso contenidos día 1
 
-- [HTML basics](https://github.com/kaisercode13/ironhack-nov07/tree/master/section-01-html)
+- [HTML basics](https://github.com/dzc1/ironhack-nov07#)
