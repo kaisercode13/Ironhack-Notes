@@ -5,21 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Site</title>
+    <!-- CSS Style Tag to use within the head teg -->
+    <style>
+      * {box-sizing: border-box;
+    }
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+      body {
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: solid 1px black;
+      }
+
+    </style>
 </head>
 <body>
 
     <!-- Header -->
-    <h1>My Website</h1>
-    <p>Just another website</p>
-
+    <header id="header" class="card">
+    <h1 class="text-center">My Website</h1>
+    <p class="text-center">Just another website</p>
+</header>
     <!-- Main Content -->
+<main id="main">
+    <section id="welcome" class="card">
+        <h2>Welcome to our website</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, qui. Reiciendis nihil hic id voluptates aut! Totam eligendi nemo sunt assumenda, nihil inventore quis optio at, nisi, atque magni dignissimos? </p> <br />
+                    
+                    <a href="#" class="text-center">Click for more</a>
+    </section>
+
+    <!-- Section 2 Blog -->
+    <section>
+        <h2>From our blog</h2>
+
+        <article>
+<h2>Article 1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odio corrupti suscipit dolores sed dolore expedita. Recusandae magnam eius minima ducimus soluta vel aut reprehenderit esse, dolor, facilis perferendis in?</p>
+        </article>
+<h2>Article 2</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor atque eum sint velit, minima accusamus asperiores nobis quidem quisquam, repellendus eveniet alias deleniti veniam a? Quaerat omnis velit placeat fuga!</p>
+        <article>
+
+        </article>
+    </section>
+</main>
+    <!-- welcome section -->
+   
 
     <!-- Aside Content -->
-    <aside>
+    <aside id="sidebar" class="card">
+        <!-- title -->
         <h3>Navigation</h3>
 
+        <!-- navigation -->
         <nav>
-            <ul>
+            <ul id="main-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -33,9 +115,10 @@
             <li><strong>Email</strong>contact@abbyroadstudios.com</li>
         </ul>
     </aside>
+    <div class="div"></div>
     <!-- Footer -->
-<footer>
-    <p>Copyriht &copy; My website 2022</p>
+<footer id="footer">
+    <p class="text-center">Copyriht &copy; My website 2022</p>
 </footer>
 
 </body>
