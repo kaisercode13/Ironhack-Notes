@@ -40,6 +40,31 @@
             float: right;
             width: 48%;
         }
+
+        footer {
+            clear: both;
+        }
+
+        .btn {
+            background-color: #4c5ca0;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #b9d12d;
+            color: #f4f4f4;
+            border: #000 1px solid;
+        }
+
+        .link:active {
+            color: #ff00e1;
+        }
+      
     
     </style>
 <header>
@@ -49,7 +74,7 @@
 <body>
     <section>
         <div class="box" id="box-1">
-            <h3>Aprendido</h3>
+            <a href="#" class="link">Aprendido</a>
             <h4>HTML</h4>
             <ul>
                 <li>Basic Layout</li>
@@ -72,7 +97,7 @@
         </div>
 
         <div class="box" id="box-2">
-            <h3>Por aprender</h3>
+            <a href="#" class="link">Por aprender</a>
             <h4>JavaScript & Vue</h4>
             <ul>
                 <li></li>
@@ -83,6 +108,10 @@
             </ul>
         </div>
     </section>
+
+    <footer>
+        <button class="btn">Button</button>
+    </footer>
     
 </body>
 </html>
