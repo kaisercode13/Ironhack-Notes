@@ -65,6 +65,33 @@
             color: #ff00e1;
         }
       
+        .sibling ~ ul {
+            color: red;
+        }
+
+        .first-child p:first-child {
+            color: violet;
+        }
+
+        .last-child p:last-child {
+            color: aqua;
+        }
+
+        .nth-child p:nth-child(2) {
+            color: burlywood;
+        }
+
+        .nth-child-2 p:nth-child(even) {
+            color: brown;
+        }
+
+        .first-typeof p:first-of-type {
+            color: seashell;
+        }
+
+        .last-typeof p:last-of-type {
+            color: steelblue;
+        }
     
     </style>
 <header>
@@ -74,6 +101,7 @@
 <body>
     <section>
         <div class="box" id="box-1">
+            <div class="sibling">
             <a href="#" class="link">Aprendido</a>
             <h4>HTML</h4>
             <ul>
@@ -83,6 +111,8 @@
                 <li>Links</li>
                 <li>Layout</li>
             </ul>
+            </div>
+
             <h4>CSS</h4>
             <ul>
                 <li>CSS Basics</li>
@@ -111,6 +141,45 @@
 
     <footer>
         <button class="btn">Button</button>
+
+        <div class="pseudo-selectors">
+            <div class="first-child">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <br /> 
+            <div class="last-child">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <br /> 
+            <div class="nth-child">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <br /> 
+            <div class="nth-child-2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <br /> 
+            <div class="first-typeof">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <br /> 
+            <div class="last-typeof">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+
+        </div>
     </footer>
     
 </body>
