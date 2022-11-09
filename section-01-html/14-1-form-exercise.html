@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+
+        #registrationForm {
+            border: 1px solid black;
+            padding: 5px;
+            margin: 15px auto;
+            width: 50%;
+        }
+
+        #registrationForm h3, p {
+            text-align: center;
+        }
+
+       .formInputData {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+       }
+
+       #registrationForm input[type="submit"] {
+        margin: 15px 25% 0 25%;
+        width: 50%;
+        padding: 0.5rem;
+        background-color: aqua;
+       }
+    </style>
+</head>
+<body>
+    <section id="form1">
+    <form id="registrationForm">
+        <h3>Our Registration Form</h3>
+        <p>Please complete all fields</p>
+
+        <div class="formInputData">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Your Name" id="userName">
+        </div>
+        <div class="formInputData">
+            <label for="bDay" id="dateOfBirth">Select your birthday</label>
+            <input type="date" name="bDay" id="bDay">
+        </div>
+        <div class="formInputData">
+            <label for="age">Your Age</label>
+            <input type="text" name="age" id="age">
+        </div>
+        <div class="formInputData">
+            <label for="userEmail">Your Email</label>
+            <input type="email" name="userEmail" id="userEmail">
+        </div>
+        <div class="formInputData">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass"
+            minlength="10"
+            maxlength="15">
+        </div>
+        <div class="formInputData">
+            <label for="ccNumber">Insert Credit Card Number</label>
+            <input type="text" name="ccNumber" id="ccNumber"
+            minlength="16"
+            maxlength="16">
+        </div>
+        <div class="formInputData">
+            <label for="favColor">Select your favorite color</label>
+            <input type="color" name="favColor" id="favColor">
+        </div>
+        <div class="formInputData">
+            <label for="address">Your address</label>
+            <input type="text" name="address" id="address">
+        </div>
+        <div class="formInputData">
+            <label for="uploadFile">Please upload your file</label>
+            <input type="file" name="uploadFile" id="uploadFile">
+        </div>
+        <div class="formInputData">
+            <input type="submit" value="Send">
+
+        </div>
+    </form>
+</section>
+<script>
+    // Band Information Form
+    registrationForm.onSubmit = (e) => {
+      e.preventDefault();
+
+      let userName = document.querySelector("#userName").value;
+      let bDay = document.querySelector("#bDay").value;
+      let age = document.querySelector("#age").value;
+      let userEmail = document.querySelector("#userEmail").value;
+      let pass = document.querySelector("#pass").value;
+      let ccNumber = document.querySelector("#ccNumber").value;
+    
+
+      if (userName === "") {
+        alert("You're f...ing up bro!");
+      } else {
+        alert(`
+          Name: ${UserName}
+          Birtday: ${bDay}
+          Age: ${age}
+          Email: ${userEmail}
+          Password: ${pass}
+          `);
+      }
+    };
+  </script>
+    
+</body>
+</html>
