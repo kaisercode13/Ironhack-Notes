@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Align</title>
+</head>
+
+<!-- Style Tag -->
+
+<style>
+/* Universal */
+    * {
+        box-sizing: border-box;
+    }
+/* Selector Universal - Body */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+    }
+/* Container */
+    .container {
+        max-width: 80%;
+        margin: 30px auto;
+    }
+
+/* Cotainer Boxes */
+    .box {
+        background: #f4f4f4;
+        border: solid 1px #000000;
+        padding: 20px;
+        margin: 0 0 10px 0;
+    }
+
+    .box p {
+        text-align: justify;
+    }
+
+    #box-2 {
+        float: left;
+        width: 65%;
+    }
+
+    #box-3 {
+        float: right;
+        width: 30%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box-1">
+            <h3>Heading of my site</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, vel obcaecati ipsa exercitationem voluptates in adipisci cumque iste minus facilis labore autem molestias accusamus corrupti pariatur, natus architecto animi vero.</p>
+        </div>
+        <div class="box" id="box-2">
+            <h3>Blog Posts</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit perspiciatis autem. Debitis odit vel, voluptatem dignissimos soluta voluptate iure fugiat laboriosam dolorum, ducimus, nisi modi accusamus commodi sequi quam?</p>
+        </div>
+        <div class="box" id="box-3">
+            <h3>Recent Projects</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero illum culpa cupiditate, aliquam dicta architecto, ut aperiam dignissimos nihil asperiores in magni, ex repellendus consequatur laudantium molestias rem. Reiciendis, veniam.</p>
+        </div>
+        <div class="clear"></div>
+        <div class="box" id="box-4">
+            <h3>Footer of my website</h3>
+            <a href="">Check out my Linkedin</a>
+        </div>
+    </div>
+</body>
+</html>
