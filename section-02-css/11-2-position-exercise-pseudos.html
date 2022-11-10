@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animals</title>
 
-    <!-- CSS Style -->
     <style>
-        .box {
-            height: 100px;
-            width: 100px;
-        }
 
-        .container {
+        section {
             width: 300px;
             height: 300px;
             position: relative;
             background: grey;
+            z-index: 0;
         }
 
-        #box-devil {
+        div {
+            height: 100px;
+            width: 100px;
+        }
+
+        div:nth-child(1) {
             background-image: url(https://www.bushheritage.org.au/getmedia/c0f7a160-101f-48ad-9ee9-ea3b5c79f748/25208-tassie-devil?ext=.jpg&width=400);
             position: absolute;
             right: 0;
@@ -30,7 +31,7 @@
             background-position: center center;
         }
 
-        #box-frog {
+        div:nth-child(2) {
             background-image: url(https://cdn.mos.cms.futurecdn.net/UXpjb7nPZxRCK4AYZgewJA-970-80.jpg.webp);
             position: absolute;
             left: 0;
@@ -40,7 +41,7 @@
             background-position: center center;
         }
 
-        #box-dog {
+        div:nth-child(3) {
             background-image: url(https://images.hola.com/imagenes/mascotas/20201202180412/perro-doberman-raza-perro-mitos/0-896-669/dobermann-puente-a.jpg);
             position: absolute;
             right: 0;
@@ -50,7 +51,7 @@
             background-position: center center;
         }
 
-        #box-shark {
+        div:nth-child(4) {
             background-image: url(https://files.worldwildlife.org/wwfcmsprod/images/Shark_Porbeagle_GPN257609_Species/story_full_width/94u14y0rmw_GPN257609_porbeagle_shark.jpg);
             position: absolute;
             left: 0;
@@ -59,17 +60,16 @@
             background-repeat: no-repeat;
             background-position: center center;
         }
-        
 
     </style>
 </head>
 <body>
-    <div class="container">
-        <div id="box-devil" class="box"></div>
-        <div id="box-frog" class="box"></div>
-        <div id="box-dog" class="box"></div>
-        <div id="box-shark" class="box"></div>
-    </div>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
     
 </body>
 </html>
