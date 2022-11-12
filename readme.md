@@ -2,6 +2,11 @@
 
 <p align="justify"> Con este repositorio podemos realizar un seguimiento de los contenidos impartidos durante el Frontend Bootcamp de Ironhack.</p>
 
+## Enlaces Rapidos
+
+- [Semana 1](#semana-1)
+- [Diegos Bible](#diegos-bible-🙏🎶)
+
 ## Semana 1
 
 <h4 align="center">Lunes 7 de noviembre de 2022</h4>
@@ -54,7 +59,7 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 
 <h4 align="center">Jueves 10 de noviembre de 2022</h4>
 
-<p align="justify"></p>
+<p align="justify">Despues de comenzar con la revision del lab del dia anterior, pasamos a conocer como realizr la estilacion de un menu, lo cual nos permite conocer el posicionamiento, la diferencia entre block elemnts y inline elements para finalmente empezar a practicar con los diseños responsive y las aplicaciones de flex. </p>
 
 <h4>Enlaces a Recursos</h4>
 
