@@ -11,7 +11,7 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 
 <h4>Enlaces a Recursos</h4>
 
-- [Css Basics Main Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
+- [HTML Basics Main Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
 - [Basic Layout](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/01-basic-layout.html)
 - [Meta Tags](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/02-meta-tags.html)
 - [Typography, Headings, Paragraphs](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/03-typogrphy.html)
@@ -41,7 +41,7 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 - [HTML Tables](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/09-tables.html)
 - [HTML Tables Practice](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/09-1-table-exercise.html)
 - [HTML Forms](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/14-forms.html)
-- [Css Basics Main Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
+- [CSS Basics Main Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
 - [CSS Basics](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/01-css-basics.html)
 - [CSS Selectors](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/02-selectors.html)
 - [Fonts](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/03-fonts.html)
