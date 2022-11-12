@@ -1,3 +1,9 @@
+<style>
+    * {
+        text-align: justify;
+    }
+</style>
+
 <h3 align="center"> FrontEnd Bootcamp </h3>
 
 <p> Con este repositorio podemos realizar un seguimiento de los contenidos impartidos durante el Frontend Bootcamp de Ironhack</p>
@@ -10,4 +16,9 @@
 Para rematar el dia, hemos analizado las diferentes opciones para la inclusión de links en nuestros documentos de HTML y la elaboración de listas conociendo a sus respectivos elementos.</p>
 
 <h4>Enlaces a Recursos</h4>
--[basic layouts](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/01-basic-layout.html)
+
+- [Basic Layout](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/01-basic-layout.html)
+- [Basic Layout](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/02-meta-tags.html)
+- [Meta Tags](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/03-typogrphy.html)
+- [Typography, Headings, Paragraphs](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/04-links.html)
+- [Anchor Tags / Links](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/05-images.html)
