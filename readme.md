@@ -51,3 +51,29 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 - [Box Model](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/07-box-model.html)
 - [Layout - Floats](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/08-float-align.html)
 - [Links & Buttons](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/09-links-buttons.html)
+
+<h4 align="center">Jueves 10 de noviembre de 2022</h4>
+
+<p align="justify"></p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [Menu Styling](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/10-menu-styling.html)
+- [Position](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/11-position.html)
+- [Inline vs Block](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/12-inline-vs-block.html)
+- [Media Queries](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/13-media-queries.html)
+- [Media Queries Extended](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/14-media-queries-extended.html)
+- [Media Query Example](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/15-media-query-example.html)
+- [Flex Basics](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/16-flex-basics.html)
+
+<h4 align="center">Viernes 11 de noviembre de 2022</h4>
+
+<p align="justify">Para cerrar nuestra primera semana, hemos comenzado el dia realizando de manera conjunta y liderada por Diego el lab del dia anterior que consiste en realizar un clone de la landing de Spotify. A continuacion hemos procedido a trabajar los grids en CSS, conociendo sus funciones basicas para luego realizar diferentes ejemplos de aplicacion.</p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [Grid Basics](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/17-grid-basics.html)
+- [Grid Example](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/17-grids-ex.html)
+- [Grid Example 2](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-example.html)
+- [Grid Example 3](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-example-2.html)
+- [Grid Practice](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-practice.html)
