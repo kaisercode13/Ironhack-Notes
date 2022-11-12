@@ -13,10 +13,10 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 
 - [Css Basics Main Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
 - [Basic Layout](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/01-basic-layout.html)
-- [Basic Layout](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/02-meta-tags.html)
-- [Meta Tags](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/03-typogrphy.html)
-- [Typography, Headings, Paragraphs](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/04-links.html)
-- [Anchor Tags / Links](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/05-images.html)
+- [Meta Tags](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/02-meta-tags.html)
+- [Typography, Headings, Paragraphs](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/03-typogrphy.html)
+- [Anchor Tags / Links](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/04-links.html)
+- [Images](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-01-html/05-images.html)
 
 <br />
 
