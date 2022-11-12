@@ -92,3 +92,8 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 - [Icon Libreries](#)
   - [Font Awesome](https://fontawesome.com/)
   - [The Noun Project](https://thenounproject.com/)
+- [Tools & Helpful Links](#)
+  - [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+  - [CSS Flex Generator](https://flexbox.help/)
+  - [CSS Shadows](https://htmlcssfreebies.com/css-box-shadow-examples/)
+  - [CSS Animations](https://animista.net/)
