@@ -1,16 +1,10 @@
-<style>
-    * {
-        text-align: justify;
-    }
-</style>
-
 <h3 align="center"> FrontEnd Bootcamp </h3>
 
-<p> Con este repositorio podemos realizar un seguimiento de los contenidos impartidos durante el Frontend Bootcamp de Ironhack</p>
+<p align="justify"> Con este repositorio podemos realizar un seguimiento de los contenidos impartidos durante el Frontend Bootcamp de Ironhack</p>
 
 ## Semana 1
 
-<h4>Lunes 7 de noviembre de 2022</h4>
+<h4 align="justify">Lunes 7 de noviembre de 2022</h4>
 
 <p>En este primer día hemos realizado una aproximación a la configuración de nuestras cuentas y repositorios de Github, así como adentrarnos en los contenidos básicos de HTML, lo que nos ha permitido conocer el layout basico de HTML, los meta-tags existentes (Optimizacion SEO), asi como las tipografias.
 Para rematar el dia, hemos analizado las diferentes opciones para la inclusión de links en nuestros documentos de HTML y la elaboración de listas conociendo a sus respectivos elementos.</p>
