@@ -77,3 +77,18 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 - [Grid Example 2](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-example.html)
 - [Grid Example 3](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-example-2.html)
 - [Grid Practice](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-practice.html)
+
+## Diego's Bible 🙏🎶
+
+- [CSS Frameworks](#)
+  - [Tailwind CSS](https://tailwindcss.com/)
+- [Cheatsheets](#)
+  - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+  - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+  - [HTML Cheatshet](https://devhints.io/html)
+  - [CSS Cheatsheet](https://devhints.io/css)
+- [Videos](#)
+  - [Welcome to the Internet - Bo Burnham](https://www.youtube.com/watch?v=k1BneeJTDcU)
+- [Icon Libreries](#)
+  - [Font Awesome](https://fontawesome.com/)
+  - [The Noun Project](https://thenounproject.com/)
