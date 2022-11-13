@@ -31,6 +31,7 @@ Header {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
+    width: 100vw;
 }
 
 #navLogo img {
@@ -58,7 +59,150 @@ nav a {
 
 /* Section 1 */
 
+.container1 {
+    background: url(../images/landing.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.centerHeading {
+    font-size: 4.5rem;
+    color: white;
+}
+
+.centerSubtitle {
+    font-size: 1.5rem;
+    color: white;
+}
+
 /* Section 2 */
 
-/* Images Configuration */
+.container2 {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+      } 
+
+#headingC2 {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.container2 h1 {
+    padding: 5px;
+    margin-bottom: 5rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    ;
+  }
+  
+  .container2 h1 span {
+    border-bottom: 4px solid #00b172;
+  }
+  
+  .container2 h2 {
+    color: #00b172;
+  }
+  .container2 p {
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .container2 img {
+    width: 120px;
+    margin-bottom: 2rem;
+  }
+  .container2 .externalDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    width: 90%;
+    
+}
+  .container2 .contentBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-left: 10%;
+  }
+
+  /* Section 3 */
+
+.container3 {
+  background-color: #00b172;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+  margin: 3%;
+  padding: 3%;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.container3 h1 {
+  width: 90%;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.container3 h1 span {
+  border-bottom: 4px solid #fff;
+}
+.container3 h2 {
+  font-weight: 500;
+}
+.container3 p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.container3 #appImg {
+  width: 55%;
+}
+.container3 #logoWhite {
+  width: 9vw;
+}
+.container3 .externalDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+.container3 .contentBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 45%;
+}
+.container3 .checkBoxInternal {
+  width: 10%;
+}
+.container3 .checkBoxInternal2 {
+  width: 45%;
+}
 
