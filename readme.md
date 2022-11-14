@@ -92,8 +92,6 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
   - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
   - [HTML Cheatshet](https://devhints.io/html)
   - [CSS Cheatsheet](https://devhints.io/css)
-- [Videos](#)
-  - [Welcome to the Internet - Bo Burnham](https://www.youtube.com/watch?v=k1BneeJTDcU)
 - [Icon Libreries](#)
   - [Font Awesome](https://fontawesome.com/)
   - [The Noun Project](https://thenounproject.com/)
