@@ -89,15 +89,29 @@
 // }
 
 // Ejercicio Práctico
+// Opción 1 console.log
 
+// const costumerAge = parseInt(prompt("Are you elegible for a discount? - Let me see your ID"));
+
+// if (costumerAge <= 5) {
+//     console.log("Access is free for you. Behave yourself kid.");
+// } else if (costumerAge < 15) {
+//     console.log("You got yoursef a 15% discount.");
+// } else if (costumerAge >= 15 && costumerAge < 60) {
+//     console.log("You're paying the full price");
+// } else if (costumerAge >= 60) {
+//     console.log("You're old man, here's your 40% discount");
+// }
+
+// Opción 2 alert
 const costumerAge = parseInt(prompt("Are you elegible for a discount? - Let me see your ID"));
 
 if (costumerAge <= 5) {
-    console.log("Access is free for you. Behave yourself kid.");
+    alert("Access is free for you. Behave yourself kid.");
 } else if (costumerAge < 15) {
-    console.log("You got yoursef a 15% discount.");
+    alert("You got yoursef a 15% discount.");
 } else if (costumerAge >= 15 && costumerAge < 60) {
-    console.log("You're paying the full price");
+    alert("You're paying the full price");
 } else if (costumerAge >= 60) {
-    console.log("You're old man, here's you 40% discount");
+    alert("You're old man, here's your 40% discount");
 }
