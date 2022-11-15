@@ -100,3 +100,5 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
   - [CSS Flex Generator](https://flexbox.help/)
   - [CSS Shadows](https://htmlcssfreebies.com/css-box-shadow-examples/)
   - [CSS Animations](https://animista.net/)
+  - [String Methods](https://www.w3schools.com/js/js_string_methods.asp)
+  - [Number Methods](https://www.w3schools.com/js/js_number_methods.asp)
