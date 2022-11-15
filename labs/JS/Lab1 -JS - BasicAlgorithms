@@ -20,12 +20,12 @@ if (hacker1.length > hacker2.length) {
     console.log(`Wow, you both have equally long names, ${hacker1.length} characters!`)
 }
 
-// 2nd version - Usando un operador ternario
-hacker1.length > hacker2.length
-    ? console.log(`The driver has the longest name, it has ${hacker1.length} characters.`) 
-    : hacker1.length === hacker2.length
-    ? console.log(`Wow, you both have equally long names, ${hacker1.length} characters!`)
-    : console.log(`It seems that the navigator has the longest name, it has ${hacker2.length} characters.`)
+// 2nd version - Usando un operador ternario - Diego's proposal
+// hacker1.length > hacker2.length
+//     ? console.log(`The driver has the longest name, it has ${hacker1.length} characters.`) 
+//     : hacker1.length === hacker2.length
+//     ? console.log(`Wow, you both have equally long names, ${hacker1.length} characters!`)
+//     : console.log(`It seems that the navigator has the longest name, it has ${hacker2.length} characters.`)
 
 // Iteration 3: Loops
 
@@ -47,4 +47,36 @@ if (hacker1 > hacker2) {
     console.log("The driver's name goes first.");
 } else if (hacker1 === hacker2) {
     console.log("What?! You both have the same name?");
+}
+
+// Bonus 1
+
+let lorem = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptate quis, possimus rerum dolor, doloremque quasi sequi esse nobis laboriosam tenetur iusto officiis impedit eligendi eum, nemo et unde ipsum?
+
+Rerum numquam pariatur sint sequi vitae labore atque quaerat dicta asperiores laborum fuga ad, iure nostrum aperiam itaque doloremque perspiciatis nam facilis quidem quam modi nisi molestiae praesentium qui? Quis.
+
+Labore fugit minus mollitia nam earum magni? Sequi ad nobis temporibus hic saepe odit praesentium eaque, reprehenderit quasi nam facere fugiat soluta eveniet architecto odio dolor magni dignissimos consectetur accusamus.`;
+
+let trimmedLorem = lorem.trim();
+
+let etCount = 0;
+for (key of trimmedLorem) {
+    if (key === "et ") etCount += 1;
+}
+
+console.log(`Cantidad ET: ${etCount + 1}`);
+
+// Bonus 2
+
+let text = "Amor, Roma";
+let backWardsText = "";
+
+for (let i = text.length - 1; i > 0; i--) {
+    backWardsText += text[i]
+}
+
+if (text.toLowerCase() === backWardsText.toLowerCase()) {
+    console.log(`${text} is a palindrome`);
+} else {
+    console.log(`${text} is a not palindrome`);
 }
