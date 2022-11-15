@@ -160,7 +160,7 @@
 //         console.log("This is not a valid operator. Try again");
 // }
 
-//Ejemplo comlejo - Switch - Country  Continent Finder - Casos Multiples
+//Ejemplo comlejo - Switch - Country  Continent Finder - Casos Multiples -Lower Case methods
 const countryOfOrigin = prompt("What country where you born?").toLowerCase();
 switch (countryOfOrigin) {
     case "venezuela":
