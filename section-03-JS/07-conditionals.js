@@ -104,14 +104,81 @@
 // }
 
 // Opción 2 alert
-const costumerAge = parseInt(prompt("Are you elegible for a discount? - Let me see your ID"));
+// const costumerAge = parseInt(prompt("Are you elegible for a discount? - Let me see your ID"));
 
-if (costumerAge <= 5) {
-    alert("Access is free for you. Behave yourself kid.");
-} else if (costumerAge < 15) {
-    alert("You got yoursef a 15% discount.");
-} else if (costumerAge >= 15 && costumerAge < 60) {
-    alert("You're paying the full price");
-} else if (costumerAge >= 60) {
-    alert("You're old man, here's your 40% discount");
+// if (costumerAge <= 5) {
+//     alert("Access is free for you. Behave yourself kid.");
+// } else if (costumerAge < 15) {
+//     alert("You got yoursef a 15% discount.");
+// } else if (costumerAge >= 15 && costumerAge < 60) {
+//     alert("You're paying the full price");
+// } else if (costumerAge >= 60) {
+//     alert("You're old man, here's your 40% discount");
+// }
+
+// Ejemplo sencillo - sin type checking
+// let switchExample1 = 2;
+// switch (switchExample1) {
+//     case 1:
+//         switchExample1 = "one";
+//         break;
+//     case 2:
+//         switchExample1 = "two";
+//         break;
+//     default:
+//         switchExample1 = "not found";
+//         break;
+// }
+
+// console.log(`The value is ${switchExample1}`);
+
+// Ejemplo comlejo - Switch - Calculadora
+// const operator = prompt("Enter operator (either +, -, * or /:");
+
+// // Variables para recibir los inputs del usuario:
+// const calcNum1 = parseFloat(prompt("Enter 1st number:"));
+// const calcNum2 = parseFloat(prompt("Enter 2nd number:"));
+
+// switch (operator) {
+//     case "+":
+//         result = calcNum1 + calcNum2;
+//         console.log(`${calcNum1} + ${calcNum2} = ${result}`);
+//         break;
+//     case "-":
+//         result = calcNum1 + calcNum2;
+//         console.log(`${calcNum1} - ${calcNum2} = ${result}`);
+//         break;
+//     case "*":
+//         result = calcNum1 + calcNum2;
+//         console.log(`${calcNum1} * ${calcNum2} = ${result}`);
+//         break;
+//     case "/":
+//         result = calcNum1 + calcNum2;
+//         console.log(`${calcNum1} / ${calcNum2} = ${result}`);
+//         break;
+//     default:
+//         console.log("This is not a valid operator. Try again");
+// }
+
+//Ejemplo comlejo - Switch - Country  Continent Finder - Casos Multiples
+const countryOfOrigin = prompt("What country where you born?").toLowerCase();
+switch (countryOfOrigin) {
+    case "venezuela":
+    case "argentina":
+    case "colombia":
+    case "chile":
+        alert(`Cool, ${countryOfOrigin} is located in South America`);
+        console.log(`Cool, ${countryOfOrigin} is located in South America`);
+        break;
+    case "spain":
+    case "france":
+    case "portugal":
+    case "germany":
+        alert(`Cool, ${countryOfOrigin} is located in Europe`);
+        console.log(`Cool, ${countryOfOrigin} is located in Europe`);
+        break;
+    default:
+        alert("you're not fromt this planet");
+        console.log("you're not fromt this planet");
 }
+
