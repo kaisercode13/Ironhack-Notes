@@ -14,7 +14,7 @@ White: #FFF
 * {
     margin: 0;
     padding: 0;
-    outline: red solid 1px;
+    /* outline: red solid 1px; */
 }
 
 /* Font Configuration */
@@ -134,7 +134,7 @@ nav a {
 }
   .container2 .contentBox {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -144,65 +144,59 @@ nav a {
 
   /* Section 3 */
 
-.container3 {
-  background-color: #00b172;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  color: #fff;
-  margin: 3%;
-  padding: 3%;
-  height: auto;
-  text-align: center;
-  position: relative;
-}
-.container3 h1 {
-  width: 90%;
-  font-weight: 700;
-  font-size: 2rem;
-  text-align: left;
+  .greensection {
+    background-color: #00B172;
+    position: relative;
+    padding: 4rem 4rem 2rem 4rem;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
 }
 
-.container3 h1 span {
-  border-bottom: 4px solid #fff;
-}
-.container3 h2 {
-  font-weight: 500;
-}
-.container3 p {
-  font-weight: 100;
-  font-size: 1.5rem;
-  text-align: left;
-}
-.container3 #appImg {
-  width: 55%;
-}
-.container3 #logoWhite {
-  width: 9vw;
-}
-.container3 .externalDiv {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  width: 100%;
-}
-.container3 .contentBox {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: center;
-  width: 45%;
-}
-.container3 .checkBoxInternal {
-  width: 10%;
-}
-.container3 .checkBoxInternal2 {
-  width: 45%;
+.greensection .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7rem;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.underline-white {
+    border-bottom: solid 4px #FFF;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.subinfo {
+    width: 55%;
+    margin: 2rem 0;
+}
+
+.subinfo h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.subinfo p {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image img {
+    width: 60%;
+    margin: auto 0;
+}
