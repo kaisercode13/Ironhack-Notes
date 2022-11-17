@@ -62,6 +62,17 @@
       const ex2h1 = document.getElementById("ex2h1");
       const ex2btn = document.getElementById("ex2btn");
 
+      ex2btn.addEventListener("click", () => {
+        if(ex2h1.innerText = "OFF") {
+            ex2h1.innerText = "ON";
+            ex2btn.innerText = "apagar";
+        } else {
+            ex2h1.innerText = "OFF";
+            ex2btn.innerText = "enceder";
+        }
+      }
+      );
+
       // Ejercicio 3. Contador.
       // Vamos a crear un pequeño contador que sume y reste valores. Primero crearemos un <h1> con un valor inicial de '0'. Después crearemos CUATRO botones: el primero será "Doble click -2", el segundo "Click -1", el tercero "Click +1" y el cuarto "Doble click +2".
       // Lo que queremos de estos cuatro botones es que modifiquen el valor del <h1> según como se especifica. Es decir, tendremos dos botones con un evento de doble click que restaran y sumarán 2 al resultado del <h1>, así como otros dos botones con un evento de click que sumarán y restarán 1 al resultado.
@@ -73,12 +84,35 @@
       const ex3btn3 = document.getElementById("ex3btn3");
       const ex3btn4 = document.getElementById("ex3btn4");
 
+      ex3btn1.addEventListener("dblclick", () => {
+        ex3h1.innerText = parseInt(ex3h1.innerText) - 2;
+      });
+      ex3btn2.addEventListener("click", () => {
+        ex3h1.innerText = parseInt(ex3h1.innerText) - 1;
+      });
+      ex3btn3.addEventListener("click", () => {
+        ex3h1.innerText = parseInt(ex3h1.innerText) + 1;
+      });
+      ex3btn4.addEventListener("dblclick", () => {
+        ex3h1.innerText = parseInt(ex3h1.innerText) + 2;
+      });
+
       // Ejercicio 4. Class Toggle
       // Creamos un botón que tenga una clase "green" y un texto como 'I'm green'.
       // Cuando el user dé click al botón, deberíamos cambiar el texto del botón por 'I'm red' y su color para que sea rojo.
       // Cuando el botón sea rojo y el user le vuelva a dar, deberíamos volver a setearlo a su estado inicial.
 
       const ex4btn = document.getElementById("ex4btn");
+
+      ex4btn.addEventListener("click", () => {
+        if(ex4btn.innerText = "I'm green") {
+            ex4btn.innerText = "I'm red";
+            ex4btn.className = "red";
+        } else {
+            ex4btn.innerText = "I'm green";
+            ex4btn.className = "green";
+        }
+      });
 
       // Ejercicio 5. Añadir a listas con inputs - ADVANCED
       // Vamos a crear una ordered list que no contenga ningún elemento. Después creamos un input y un botón que contenga el texto "Añadir".
