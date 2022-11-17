@@ -41,12 +41,18 @@
     <button id="ex5btn">Añadir</button>
 
     <script>
+        
       // Ejercicio 1. Cambio de innerText.
       // Creamos un <h1> con un texto de "Todavía no me han modificado". Debajo creamos un botón que contenga el texto que queráis ("Click me", por ejemplo).
       // Después tendremos que generar un evento de click. Cuando el user clique el botón, lo que haremos es que vamos a modificar el texto del <h1> de tal manera que sea "Ya me han dado click!".
 
       const ex1h1 = document.getElementById("ex1h1");
       const ex1btn = document.getElementById("ex1btn");
+
+      function changeH1() {
+        ex1h1.innerText = "Ya me han dado click!";
+      }
+      ex1btn.addEventListener("click", changeH1)
 
       // Ejercicio 2. Toggle.
       // Imaginemos que tenemos un pequeño aparato que se puede encender y apagar con un botón.
