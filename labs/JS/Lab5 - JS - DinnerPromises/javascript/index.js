@@ -48,11 +48,10 @@ obtainInstruction("steak", 0).then((paso) => {
   document.querySelector("#steak").innerHTML += `<li>${paso}</li>`
   return obtainInstruction("steak", 7);
 }).then((paso) => {
-  document.querySelector("#steak").innerHTML += `<li>${paso}</li>`
-  return obtainInstruction("steak", 8);
-}).then(() => {
-  document.querySelector("#steak").innerHTML += `<li>"Steak is ready"</li>`;
+  // document.querySelector("#steak").innerHTML += `<li>${paso}</li>`
+  document.querySelector("#steak").innerHTML += `<li>Steak is ready</li>`;
   document.querySelector("#steakImg").removeAttribute("hidden");
+  return obtainInstruction("steak", 8);
 })
 
 // Iteration 3 using async/await
