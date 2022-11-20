@@ -141,7 +141,7 @@ const wordsFind = ['machine', 'subset', 'trouble', 'starting', 'matter', 'eating
 
 function doesWordExist(wordsFind, word) {
   if (wordsFind.length === 0) {
-    return null;
+    return null; 
   } else {
     return wordsFind.includes(word);
   }
