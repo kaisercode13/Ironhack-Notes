@@ -89,3 +89,19 @@ displayImg();
 
 // Bonus 2 - Promise all
 // ...
+const paso0 = obtainInstruction("brusselsSprouts", 0);
+const paso1 = obtainInstruction("brusselsSprouts", 1);
+const paso2 = obtainInstruction("brusselsSprouts", 2);
+const paso3 = obtainInstruction("brusselsSprouts", 3);
+const paso4 = obtainInstruction("brusselsSprouts", 4);
+const paso5 = obtainInstruction("brusselsSprouts", 5);
+const paso6 = obtainInstruction("brusselsSprouts", 6);
+const paso7 = obtainInstruction("brusselsSprouts", 7);
+
+Promise.all([paso0, paso1, paso2, paso3, paso4, paso5, paso6, paso7]).then((valorDelArray) => {
+  valorDelArray.forEach((instruccion) => {
+    document.querySelector("#brusselsSprouts").innerHTML += `<li>${instruccion}</li>`
+  });
+
+}
+).catch((error) => console.log(error));
