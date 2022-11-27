@@ -5,6 +5,8 @@
 ## Enlaces Rapidos
 
 - [Semana 1](#semana-1)
+- [Semana 2](#semana-2)
+- [Semana 3](#semana-3)
 - [Diegos Bible](#diegos-bible-🙏🎶)
 
 ## Semana 1
@@ -82,6 +84,81 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 - [Grid Example 2](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-example.html)
 - [Grid Example 3](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-example-2.html)
 - [Grid Practice](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-02-css/18-grid-basics-practice.html)
+
+## Semana 2
+
+<h4 align="center">Lunes 14 de noviembre de 2022</h4>
+
+<p align="justify"> </p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [JS Basics](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/01-js-basics.html)
+- [JS Master](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/02-js-master.html)
+- [JS Intro](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/03-intro.js)
+- [JS Data Types](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/04-data-types.js)
+- [JS Variables](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/05-variable.js)
+- [JS Operators](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/06-operators.js)
+- [JS Conditionals](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/07-conditionals.js)
+
+<br />
+
+<h4 align="center">Martes 15 de noviembre de 2022</h4>
+
+<p align="justify"> </p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [JS Functions](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
+- [JS Loops](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
+- [JS Array Methods](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
+
+<br />
+
+<h4 align="center">Miércoles 16 de noviembre de 2022</h4>
+
+<p align="justify"> </p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [DOM Manipulations](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/11-dom.manipulation.js)
+- [DOM Manipulations 2](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/12-dom-manipulation-2.js)
+- [DOM Manipulations HTML](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/12-dom.html)
+
+<br />
+
+<h4 align="center">Jueves 15 de noviembre de 2022</h4>
+
+<p align="justify"> </p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [Browser Events](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/13-browser-events.html)
+
+<br />
+
+<h4 align="center">Viernes 16 de noviembre de 2022</h4>
+
+<p align="justify"> </p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [Async Class](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/14-async-class.js)
+
+<br />
+
+## Semana 3
+
+<h4 align="center">Lunes 21 de noviembre de 2022</h4>
+
+<p align="justify"> Procedemos a iniciar el proyecto MidTerm. Realizamos laa última clase previa al inicio del proyecto en la cual tratamos la inclusión de datos y las llamadas de datos a través de Apis mediante el método fetch. El resto de la semana, se podrá seguir a través del reeadme del proyecot midterm.</p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [MidTerm Project](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
+- [Fetch Api](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/15-fetch.api.js)
+
+<br />
 
 ## Diego's Bible 🙏🎶
 
