@@ -7,6 +7,7 @@
 - [Semana 1](#semana-1)
 - [Semana 2](#semana-2)
 - [Semana 3](#semana-3)
+- [Semana 4](#semana-4)
 - [Diegos Bible](#diegos-bible-🙏🎶)
 
 ## Semana 1
@@ -157,6 +158,24 @@ Para rematar el dia, hemos analizado las diferentes opciones para la inclusión 
 
 - [MidTerm Project](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-02-css)
 - [Fetch Api](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-03-JS/15-fetch.api.js)
+
+<br />
+
+## Semana 4
+
+<h4 align="center">Lunes 28 de noviembre de 2022</h4>
+
+<p align="justify"> </p>
+
+<h4>Enlaces a Recursos</h4>
+
+- [Vue Main Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-04-vue)
+- [APP Vue](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-04-vue/my-first-vue-project/src/App.vue)
+- [Components Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-04-vue/my-first-vue-project/src/components)
+- [Vue Basics Folder](https://github.com/kaisercode13/Ironhack-Notes/tree/main/section-04-vue/my-first-vue-project/src/components/vueBasics)
+- [2-TextDirective](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-04-vue/my-first-vue-project/src/components/vueBasics/2-TextDirective.vue)
+- [3-HTMLDirective](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-04-vue/my-first-vue-project/src/components/vueBasics/3-HtmlDirective.vue)
+- [4-Attribute-Binding](https://github.com/kaisercode13/Ironhack-Notes/blob/main/section-04-vue/my-first-vue-project/src/components/vueBasics/4-attribute-binding.vue)
 
 <br />
 
