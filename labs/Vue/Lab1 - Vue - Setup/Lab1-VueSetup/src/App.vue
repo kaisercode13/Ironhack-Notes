@@ -1,25 +1,39 @@
 <script setup>
-import Lab1Component from './components/Lab1Component.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import Lab1Component from './components/Lab1Component.vue';
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <h1>Lab 1 - Vue</h1>
+      <hr>
     </div>
   </header>
 
-  <main></main>
+  <main>
+    <lab-1-component />
+  </main>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+  
 }
 
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: greenyellow;
+}
+
+header {
+  margin-bottom: 50px;
 }
 
 @media (min-width: 1024px) {
