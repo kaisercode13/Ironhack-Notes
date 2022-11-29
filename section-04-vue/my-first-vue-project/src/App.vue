@@ -6,7 +6,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 // import AttributeBinding from "./components/vueBasics/4-attribute-binding.vue";
 // import ConditionalRendering from "./components/vueBasics/5-ConditionalRendering.vue";
 // import ConditionalExercise from "./components/vueBasics/5.1-ConditionalExercise.vue";
-import IteratingExercise from "./components/vueBasics/7.1-IteratingElementsExercise.vue"
+import IteratingExercise from "./components/vueBasics/7.1-IteratingElementsExercise.vue";
 </script>
 
 <template>
