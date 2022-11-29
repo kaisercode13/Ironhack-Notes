@@ -5,7 +5,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 // import HtmlDirective from "./components/vueBasics/3-HtmlDirective.vue";
 // import AttributeBinding from "./components/vueBasics/4-attribute-binding.vue";
 // import ConditionalRendering from "./components/vueBasics/5-ConditionalRendering.vue";
-import ConditionalExercise from "./components/vueBasics/5.1-ConditionalExercise.vue";
+// import ConditionalExercise from "./components/vueBasics/5.1-ConditionalExercise.vue";
+import IteratingExercise from "./components/vueBasics/7.1-IteratingElementsExercise.vue"
 </script>
 
 <template>
@@ -24,8 +25,11 @@ import ConditionalExercise from "./components/vueBasics/5.1-ConditionalExercise.
     <!-- <hr />
     <AttributeBinding /> -->
     <!-- <ConditionalRendering /> -->
+    <!-- <ConditionalExercise /> -->
+    <IteratingExercise />
+
+
     <hr />
-    <ConditionalExercise />
   </main>
 </template>
 
