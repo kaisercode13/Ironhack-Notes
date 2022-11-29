@@ -1,9 +1,11 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
-import MyFirstComponentVue from "./components/vueBasics/MyFirstComponent.vue";
-import TextDirective from "./components/vueBasics/2-TextDirective.vue";
-import HtmlDirective from "./components/vueBasics/3-HtmlDirective.vue";
-import AttributeBinding from "./components/vueBasics/4-attribute-binding.vue";
+// import MyFirstComponent from "./components/vueBasics/0-MyFirstComponent.vue";
+// import TextDirective from "./components/vueBasics/2-TextDirective.vue";
+// import HtmlDirective from "./components/vueBasics/3-HtmlDirective.vue";
+// import AttributeBinding from "./components/vueBasics/4-attribute-binding.vue";
+// import ConditionalRendering from "./components/vueBasics/5-ConditionalRendering.vue";
+import ConditionalExercise from "./components/vueBasics/5.1-ConditionalExercise.vue";
 </script>
 
 <template>
@@ -14,13 +16,16 @@ import AttributeBinding from "./components/vueBasics/4-attribute-binding.vue";
   </header>
 
   <main>
-    <!-- <MyFirstComponentVue /> -->
+    <!-- <MyFirstComponent /> -->
     <!-- <hr /> -->
     <!-- <TextDirective /> -->
     <!-- <hr /> -->
     <!-- <HtmlDirective /> -->
+    <!-- <hr />
+    <AttributeBinding /> -->
+    <!-- <ConditionalRendering /> -->
     <hr />
-    <AttributeBinding />
+    <ConditionalExercise />
   </main>
 </template>
 
